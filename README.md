@@ -1,0 +1,1 @@
+A research project conducted in R trying to predict the age of Abalone through the amount of rings they have using physical measurements. Next steps are creating different ML Models to increase accuracy.
