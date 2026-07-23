@@ -1,5 +1,5 @@
 # Predicting Abalone Age from Physical Measurements
-
+ 
 Comparing linear and non-linear models for estimating abalone age from external
 physical measurements, with regression diagnostics and a written analysis of why
 performance plateaus.
@@ -62,7 +62,7 @@ which is well defined for OLS and not directly comparable for tree ensembles or
 SVMs. Plain R² is used for cross-model comparison, alongside RMSE as an
 interpretable error measure in rings.
  
-## Repository contents
+## Repository Contents
  
 | File | Contents |
 |---|---|
@@ -71,10 +71,10 @@ interpretable error measure in rings.
 | `SVM.ipynb` | Support vector machine model |
 | `KMeansClustering.ipynb` | Exploratory clustering |
 | `Final Report.pdf` | Full written analysis |
-| `Abalone Poster.pdf` | Poster presented at UT's Fall Undergraduate Research Forum |
+| `Abalone Poster.pdf` | Poster on the regression analysis, presented at UT's Fall Undergraduate Research Forum |
 | `abalone.data` | UCI Abalone dataset |
  
-## Next steps
+## Next Steps
  
 - XGBoost, to complete the non-linear model comparison
 - Reframe as ordinal classification over binned age ranges, which suits the
@@ -82,6 +82,8 @@ interpretable error measure in rings.
 - Report RMSE and MAE across all models for a directly interpretable error measure
 ## Presented at
  
-University of Tampa Fall Undergraduate Research Forum
+University of Tampa Fall Undergraduate Research Forum — poster presentation of the
+multiple linear regression analysis. The random forest, SVM, and clustering work
+came afterward and was not part of the poster.
 
 <img width="1186" height="891" alt="Research poster: predicting abalone age from physical measurements" src="https://github.com/user-attachments/assets/e1ab8351-06e4-4bfd-8901-c3a7914adc6a" />
